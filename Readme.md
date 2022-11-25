@@ -1,13 +1,15 @@
 ## Stisla Spring Boot Starter
 
-This project is a spring boot application combined with the Stisla Admin Template. Check these GitHub repository below.
+This project is a spring boot application combined with the Stisla Admin Template. Stisla is Free Bootstrap Admin Template and will help you to speed up your project. Kindly check these GitHub repository below.
 
 * [Spring Boot Official Documentation](https://spring.io/projects/spring-boot)
 * [Stisla Admin Template](https://github.com/stisla/stisla)
 
+![Stisla Preview](https://i.ibb.co/6tdmcX0/2018-11-11-15-35-getstisla-com.png)
+
 ### Requirements
 * Maven ^3.6
-* Java 17
+* Java ^17
 
 ### Installation
 To install this repository, run this command below using your terminal.
@@ -19,7 +21,7 @@ Run project with this command below.
 ./mvnw spring-boot:run
 ```
 
-You should see the application run on [http://localhost:8080](http://localhost:8080) (default)
+You should see the application run on [http://localhost:8083](http://localhost:8083) (change port definition in application.properties)
 
 ### Reference Documentation
 

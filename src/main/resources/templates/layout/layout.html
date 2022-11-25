@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Credits &mdash; Stisla</title>
+
+    <!-- General CSS Files -->
+    <link rel="stylesheet" th:href="@{/modules/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/modules/fontawesome/css/all.min.css}">
+
+    <!-- CSS Libraries -->
+    <th:block layout:fragment="styles"></th:block>
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/css/components.css}">
+    <!-- Start GA -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-94034622-3');
+    </script>
+    <!-- /END GA --></head>
+
+<body>
+<div id="app">
+    <div class="main-wrapper main-wrapper-1">
+        <div th:insert="~{layout/components/navbar}">...</div>
+        <div th:insert="~{layout/components/sidebar}">...</div>
+
+        <div layout:fragment="content"></div>
+
+        <div th:insert="~{layout/components/footer}">...</div>
+    </div>
+</div>
+
+<!-- General JS Scripts -->
+<script type="text/javascript" th:src="@{/modules/jquery.min.js}"></script>
+<script type="text/javascript" th:src="@{/modules/popper.js}"></script>
+<script type="text/javascript" th:src="@{/modules/tooltip.js}"></script>
+<script type="text/javascript" th:src="@{/modules/bootstrap/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/modules/nicescroll/jquery.nicescroll.min.js}"></script>
+<script type="text/javascript" th:src="@{/modules/moment.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/stisla.js}"></script>
+
+<!-- JS Libraries -->
+<!-- Page Specific JS File -->
+<th:block layout:fragment="scripts"></th:block>
+
+<!-- Template JS File -->
+<script type="text/javascript" th:src="@{/js/scripts.js}"></script>
+<script type="text/javascript" th:src="@{/js/custom.js}"></script>
+</body>
+</html>

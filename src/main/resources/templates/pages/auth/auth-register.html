@@ -4,7 +4,7 @@
       layout:decorate="~{layout/layout-auth-error}">
 
 <th:block layout:fragment="styles">
-    <link rel="stylesheet" th:href="@{/modules/jquery-selectric/selectric.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/jquery-selectric/selectric.css}">
 </th:block>
 
 <div layout:fragment="content">
@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
                 <div class="login-brand">
-                    <img th:src="@{/img/stisla-fill.svg}" alt="logo" width="100" class="shadow-light rounded-circle">
+                    <img th:src="@{/dist/assets/img/stisla-fill.svg}" alt="logo" width="100" class="shadow-light rounded-circle">
                 </div>
 
                 <div class="card card-primary">
@@ -110,8 +110,8 @@
 </div>
 
 <th:block layout:fragment="scripts">
-    <script type="text/javascript" th:src="@{/modules/jquery-pwstrength/jquery.pwstrength.min.js}"></script>
-    <script type="text/javascript" th:src="@{/modules/jquery-selectric/jquery.selectric.min.js}"></script>
-    <script type="text/javascript" th:src="@{/js/page/auth-register.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/jquery-pwstrength/jquery.pwstrength.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/jquery-selectric/jquery.selectric.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/js/page/auth-register.js}"></script>
 </th:block>
 >

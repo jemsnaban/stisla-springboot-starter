@@ -293,9 +293,9 @@
                             <div class="card-body">
                                 <div class="mb-2 text-muted">Click the picture below to see the magic!</div>
                                 <div class="chocolat-parent">
-                                    <a th:href="@{/img/example-image.jpg}" class="chocolat-image" title="Just an example">
+                                    <a th:href="@{/dist/assets/img/example-image.jpg}" class="chocolat-image" title="Just an example">
                                         <div data-crop-image="285">
-                                            <img alt="image" th:src="@{/img/example-image.jpg}" class="img-fluid">
+                                            <img alt="image" th:src="@{/dist/assets/img/example-image.jpg}" class="img-fluid">
                                         </div>
                                     </a>
                                 </div>
@@ -415,11 +415,11 @@
 </div>
 
 <th:block layout:fragment="styles">
-    <link rel="stylesheet" th:href="@{/modules/chocolat/dist/css/chocolat.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/chocolat/dist/css/chocolat.css}">
 </th:block>
 
 <th:block layout:fragment="scripts">
     <!-- JS Libraries -->
-    <script type="text/javascript" th:src="@{/modules/chocolat/dist/js/jquery.chocolat.min.js}"></script>
-    <script type="text/javascript" th:src="@{/modules/jquery-ui/jquery-ui.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/chocolat/dist/js/jquery.chocolat.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/jquery-ui/jquery-ui.min.js}"></script>
 </th:block>

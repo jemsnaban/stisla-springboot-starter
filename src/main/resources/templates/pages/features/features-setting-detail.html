@@ -4,8 +4,8 @@
       layout:decorate="~{layout/layout}" th:with="nav='features', subnav='features-setting-detail'">
 
 <th:block layout:fragment="styles">
-    <link rel="stylesheet" th:href="@{/modules/codemirror/lib/codemirror.css}">
-    <link rel="stylesheet" th:href="@{/modules/codemirror/theme/duotone-dark.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/codemirror/lib/codemirror.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/codemirror/theme/duotone-dark.css}">
 </th:block>
 
 <div layout:fragment="content">
@@ -110,9 +110,9 @@
 </div>
 
 <th:block layout:fragment="scripts">
-    <script type="text/javascript" th:src="@{/modules/codemirror/lib/codemirror.js}"></script>
-    <script type="text/javascript" th:src="@{/modules/codemirror/mode/javascript/javascript.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/codemirror/lib/codemirror.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/codemirror/mode/javascript/javascript.js}"></script>
 
     <!-- Page Specific JS File -->
-    <script type="text/javascript" th:src="@{/js/page/features-setting-detail.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/js/page/features-setting-detail.js}"></script>
 </th:block>

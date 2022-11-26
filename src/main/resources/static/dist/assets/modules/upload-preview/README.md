@@ -23,7 +23,7 @@ Go to <tt>assets/js/</tt> folder.
 **1. Copy jQuery & plugin:**
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.uploadPreview.min.js"></script>
+    <script type="text/javascript" src="dist/assets/js/jquery.uploadPreview.min.js"></script>
 
 **2. Set up your upload form e.g.:**
 

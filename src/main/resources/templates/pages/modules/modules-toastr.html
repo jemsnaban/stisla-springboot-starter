@@ -4,7 +4,7 @@
       layout:decorate="~{layout/layout}" th:with="nav='modules', subnav='modules-toastr'">
 
 <th:block layout:fragment="styles">
-    <link rel="stylesheet" th:href="@{/modules/izitoast/css/iziToast.min.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/izitoast/css/iziToast.min.css}">
 </th:block>
 
 <div layout:fragment="content">
@@ -98,6 +98,6 @@
 </div>
 
 <th:block layout:fragment="scripts">
-    <script type="text/javascript" th:src="@{/modules/izitoast/js/iziToast.min.js}"></script>
-    <script type="text/javascript" th:src="@{/js/page/modules-toastr.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/izitoast/js/iziToast.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/js/page/modules-toastr.js}"></script>
 </th:block>

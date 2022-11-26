@@ -4,9 +4,9 @@
       layout:decorate="~{layout/layout}" th:with="nav='features', subnav='features-post-create'">
 
 <th:block layout:fragment="styles">
-    <link rel="stylesheet" th:href="@{/modules/summernote/summernote-bs4.css}">
-    <link rel="stylesheet" th:href="@{/modules/jquery-selectric/selectric.css}">
-    <link rel="stylesheet" th:href="@{/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/summernote/summernote-bs4.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/jquery-selectric/selectric.css}">
+    <link rel="stylesheet" th:href="@{/dist/assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css}">
 </th:block>
 
 <div layout:fragment="content">
@@ -101,11 +101,11 @@
 </div>
 
 <th:block layout:fragment="scripts">
-    <script type="text/javascript" th:src="@{/modules/summernote/summernote-bs4.js}"></script>
-    <script type="text/javascript" th:src="@{/modules/jquery-selectric/jquery.selectric.min.js}"></script>
-    <script type="text/javascript" th:src="@{/modules/upload-preview/assets/js/jquery.uploadPreview.min.js}"></script>
-    <script type="text/javascript" th:src="@{/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/summernote/summernote-bs4.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/jquery-selectric/jquery.selectric.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/upload-preview/assets/js/jquery.uploadPreview.min.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js}"></script>
 
     <!-- Page Specific JS File -->
-    <script type="text/javascript" th:src="@{/js/page/features-post-create.js}"></script>
+    <script type="text/javascript" th:src="@{/dist/assets/js/page/features-post-create.js}"></script>
 </th:block>
